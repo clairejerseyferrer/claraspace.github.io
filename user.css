@@ -103,3 +103,7 @@ nav ul li a:hover {
 .imgBx:hover img {
     transform: scale(1.1);
 }
+
+h2 {
+    color: #CF938B;
+}
