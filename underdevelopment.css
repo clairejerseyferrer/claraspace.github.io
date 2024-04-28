@@ -1,0 +1,148 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Courier', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+body .aboutus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(pinkbg2.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+nav {
+    width:100%;
+    height: 100px;
+    background-color: #fff;
+    background-image: url('blackbg.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Book Antiqua';
+}
+
+nav ul {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+nav ul li {
+   list-style: none;  
+   float: right;
+   line-height: 100px;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    font-size:20px;
+    font-weight: bold;
+    color: #fff;
+    padding: 0 20px;
+}
+
+nav ul li a:hover {
+    color: #E2D6DC;
+}
+
+.container {
+    display:flex;
+    margin-top: 100px;
+}
+
+.profile {
+    height:500px;
+    width: 500px;
+    background-image: url('oops.png');
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.description {
+    height:500px;
+    width: 600px;
+    background-color: white;
+    font-size: large;
+    line-height: 30px;
+    padding : 40px;
+    border-radius: 16px;
+
+}
+
+.description .btn {
+    width: 50%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 20px;
+    color: #BB8E7D;
+    font-weight: bold;
+}
+mark {
+    background: #F6E1DE;
+
+}
+
+h1 {
+    font-size: 50px;
+    color: #CF938B;
+    font-weight: 200%;
+    line-height: 40px;
+}
+
+h4 {
+    font-size: 20px;
+    color: #CF938B;
+    font-weight: 200%;
+}
+
+.socials {
+    display:flex;
+    margin-top: 10px;
+    column-gap: 15px;
+    align-items: center;
+    line-height: 25px;
+}
+
+.socials a {
+    text-decoration: none;
+}
+
+.facebook {
+    height:50px;
+    width: 50px;
+    background-image: url('fblogo.jpg');
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.wattpad {
+    height:50px;
+    width: 50px;
+    background-image: url('wattpadlogo.png');
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.instagram {
+    height:50px;
+    width: 50px;
+    background-image: url('iglogo.jpg');
+    background-size: cover;
+    border-radius: 10px;
+}
